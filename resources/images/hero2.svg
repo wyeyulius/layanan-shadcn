@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 5000">
+  <defs>
+    <clipPath id="clippath">
+      <path d="M.44,1266.87c362.53-604.74,985.03-516.02,1521.93-266.82C3029.42,1699.52,3356.86-115.04,4000,472.15V.32H.44v1266.55Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="2037.72" y1="1605.81" x2="1901.78" y2="-1343.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8d82e"/>
+      <stop offset="1" stop-color="#ff00cb"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path d="M.44,2051.14C446.03,1316.28,919.61,1023.71,1382.05,939.61,880.23,740.72,331.77,714.18.44,1266.87v784.27Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="874.62" y1="2353.04" x2="434.59" y2="24.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37dacf"/>
+      <stop offset="1" stop-color="#021b8c"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <path d="M4000,472.15c-440.21-401.91-732.51,321.38-1356.41,593.55,601.83,149.64,1096.65,266.09,1356.41-415.78v-177.77Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="3401.61" y1="1394.79" x2="3235.24" y2="-51.41" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="347.89" y1="3298.68" x2="300.84" y2="1782.42" gradientTransform="translate(1684.98 -1612.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x=".44" y=".32" width="3999.56" height="1266.55" maskUnits="userSpaceOnUse">
+      <rect x=".44" y=".32" width="3999.56" height="1266.55" fill="url(#linear-gradient-4)" stroke-width="0"/>
+    </mask>
+    <clipPath id="clippath-3">
+      <path d="M.44,3733.23c362.53,604.74,985.03,516.02,1521.93,266.82,1507.05-699.47,1834.49,1115.09,2477.63,527.9v471.83H.44v-1266.55Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="2037.72" y1="3394.31" x2="1901.78" y2="6343.15" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-4">
+      <path d="M.44,2948.96c445.59,734.86,919.17,1027.43,1381.61,1111.53-501.82,198.89-1050.28,225.43-1381.61-327.26v-784.27Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="874.62" y1="2647.09" x2="434.6" y2="4975.52" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clippath-5">
+      <path d="M4000,4527.95c-440.21,401.91-732.51-321.38-1356.41-593.54,601.83-149.64,1096.65-266.09,1356.41,415.78v177.77Z" clip-rule="evenodd" fill="none" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="3401.61" y1="3605.23" x2="3235.24" y2="5051.53" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="347.89" y1="4570.42" x2="300.84" y2="6086.67" gradientTransform="translate(1684.98 -1256)" xlink:href="#linear-gradient-4"/>
+    <mask id="mask-1" x=".44" y="3733.23" width="3999.56" height="1266.55" maskUnits="userSpaceOnUse">
+      <rect x=".44" y="3733.23" width="3999.56" height="1266.55" fill="url(#linear-gradient-8)" stroke-width="0"/>
+    </mask>
+  </defs>
+  <rect x=".44" y=".32" width="3999.56" height="4999.45" fill="#f5f5f5" stroke-width="0"/>
+  <g clip-path="url(#clippath)">
+    <rect x=".44" y="-115.04" width="3999.56" height="1814.56" fill="url(#linear-gradient)" stroke-width="0"/>
+  </g>
+  <g clip-path="url(#clippath-1)">
+    <rect x=".44" y="714.18" width="1381.61" height="1336.96" fill="url(#linear-gradient-2)" stroke-width="0"/>
+  </g>
+  <g clip-path="url(#clippath-2)">
+    <rect x="2643.59" y="70.24" width="1356.41" height="1261.55" fill="url(#linear-gradient-3)" stroke-width="0"/>
+  </g>
+  <g mask="url(#mask)">
+    <path d="M1522.37,566.09C985.47,316.89,362.97,228.17.44,832.91v433.96c331.33-552.69,879.8-526.15,1381.61-327.26,47.26,18.73,94.11,38.99,140.32,60.44,475.52,220.71,833.61,191.12,1121.22,65.65,623.9-272.16,916.2-995.46,1356.41-593.55V.32h-496.29c-420.81,266.52-894.1,1070.39-1981.34,565.76" fill="#fdf063" fill-rule="evenodd" stroke-width="0"/>
+  </g>
+  <g clip-path="url(#clippath-3)">
+    <rect x=".44" y="3300.58" width="3999.56" height="1814.56" fill="url(#linear-gradient-5)" stroke-width="0"/>
+  </g>
+  <g clip-path="url(#clippath-4)">
+    <rect x=".44" y="2948.96" width="1381.61" height="1336.96" fill="url(#linear-gradient-6)" stroke-width="0"/>
+  </g>
+  <g clip-path="url(#clippath-5)">
+    <rect x="2643.59" y="3668.32" width="1356.41" height="1261.54" fill="url(#linear-gradient-7)" stroke-width="0"/>
+  </g>
+  <g mask="url(#mask-1)">
+    <path d="M1522.37,4434.01C985.47,4683.21,362.97,4771.93.44,4167.19v-433.96c331.33,552.69,879.8,526.16,1381.61,327.26,47.26-18.73,94.11-38.99,140.32-60.44,475.52-220.71,833.61-191.11,1121.22-65.65,623.9,272.16,916.2,995.46,1356.41,593.54v471.83h-496.29c-420.81-266.52-894.1-1070.39-1981.34-565.76" fill="#fdf063" fill-rule="evenodd" stroke-width="0"/>
+  </g>
+</svg>
