@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Models\Score;
+use App\Models\Service;
 
 class SurveiController extends Controller
 {
@@ -11,7 +14,19 @@ class SurveiController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Survei/Index');
+        $currentYear = now()->year;
+        $statistik = Score::whereYear('created_at', $currentYear)
+            ->select(
+                DB::raw('SUM(perpustakaan) as perpustakaan'),
+                DB::raw('SUM(konsultasi) as konsultasi'),
+                DB::raw('SUM(penjualan) as penjualan'),
+                DB::raw('SUM(rekomendasi) as rekomendasi'),
+                DB::raw('SUM(umum) as umum'),
+                DB::raw('SUM(pengaduan) as pengaduan')
+        )->first();
+        return Inertia::render('Survei/Index',[
+            'statistik' => $statistik
+        ]);
     }
 
     /**
@@ -27,7 +42,18 @@ class SurveiController extends Controller
      */
     public function store(Request $request)
     {
-        return redirect()->route('survei.index');
+        $serviceIds = $request->checkedLayanans;
+        $services = Service::whereIn('kode', $serviceIds)->pluck('nama')->toArray();
+
+        $score = new Score();
+
+        foreach ($services as $service) {
+            $score->$service = 1;
+        }        
+        $score->nilai = $request->nilai;
+        $score->save();
+
+        return redirect()->route('survei.index')->with('message', $score->nilai);
     }
 
     /**
