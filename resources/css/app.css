@@ -7,7 +7,7 @@
 }
 
 .stat {
-    margin-top: -6rem;
+    margin-top: -5rem;
 }
 
 @layer base {
@@ -80,6 +80,7 @@
     * {
         @apply border-border;
     }
+
     body {
         @apply bg-background text-foreground;
     }

@@ -18,11 +18,11 @@ export const buttonVariants = cva(
                 ghost: "hover:bg-accent hover:text-accent-foreground",
                 link: "text-primary underline-offset-4 hover:underline",
                 alternate:
-                    "mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out",
+                    "mx-auto lg:mx-0 w-2/5 bg-white text-gray-800 font-bold rounded-full px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out",
                 tertiary:
                     "mx-auto lg:mx-0 bg-blue-500 text-gray-100 font-bold rounded-full px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out",
                 secondoutline:
-                    "w-full mx-auto lg:mx-0 border border-input bg-background rounded-full px-8 shadow-lg shadow-sm hover:bg-accent hover:text-accent-foreground",
+                    "w-full mx-auto lg:mx-0 border border-input bg-background rounded-full px-8 shadow-lg shadow-sm hover:scale-105 hover:bg-accent hover:text-accent-foreground",
             },
             size: {
                 default: "h-9 px-4 py-2",
